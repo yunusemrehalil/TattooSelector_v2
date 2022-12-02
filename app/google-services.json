@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "135019678430",
+    "project_id": "dovmedeneme",
+    "storage_bucket": "dovmedeneme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135019678430:android:fb64b7e6a165ec36db904f",
+        "android_client_info": {
+          "package_name": "com.example.dovmedeneme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135019678430-mgi321cetcl59p11qs3a0gka2m03mhus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBtZJLHqZVtO3edSyRm6XwCZ9SEyyaYOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135019678430-mgi321cetcl59p11qs3a0gka2m03mhus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
