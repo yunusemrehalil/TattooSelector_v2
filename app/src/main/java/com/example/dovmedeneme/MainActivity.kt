@@ -32,9 +32,7 @@ class MainActivity : AppCompatActivity(), IFirebaseLoadDone {
         dr = FirebaseDatabase.getInstance().getReference("Tattoos")
         iFirebaseLoadDone = this
         loadTattoo()
-
     }
-
     fun loadTattoo()
     {
         var tattoos:MutableList<Tattoo> = ArrayList()
@@ -58,7 +56,6 @@ class MainActivity : AppCompatActivity(), IFirebaseLoadDone {
         val page:Int = binding.viewPager.currentItem
         binding.viewPager.currentItem = page+1
     }
-
     fun backButton(view: View) {
         val page:Int = binding.viewPager.currentItem
         if(page==0)
@@ -70,7 +67,6 @@ class MainActivity : AppCompatActivity(), IFirebaseLoadDone {
             binding.viewPager.currentItem = page-1
         }
     }
-
     fun addFavourite(view: View) {
         Toast.makeText(this, "Favorilere eklendi", Toast.LENGTH_SHORT).show()
     }
