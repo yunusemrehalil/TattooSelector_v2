@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity(), IFirebaseLoadDone {
     override fun onTattooLoadSuccess(tattooList: List<Tattoo>) {
         adapter = MyAdapter(this,tattooList)
         binding.viewPager.adapter = adapter
-        Toast.makeText(this, "basarili", Toast.LENGTH_SHORT).show()
     }
 
     override fun onTattooLoadFailed(message: String) {
@@ -54,5 +53,25 @@ class MainActivity : AppCompatActivity(), IFirebaseLoadDone {
             }
 
         })
+    }
+    fun nextButton(view: View) {
+        val page:Int = binding.viewPager.currentItem
+        binding.viewPager.currentItem = page+1
+    }
+
+    fun backButton(view: View) {
+        val page:Int = binding.viewPager.currentItem
+        if(page==0)
+        {
+            Toast.makeText(this, "geride başka dövme yok...", Toast.LENGTH_SHORT).show()
+        }
+        else
+        {
+            binding.viewPager.currentItem = page-1
+        }
+    }
+
+    fun addFavourite(view: View) {
+        Toast.makeText(this, "Favorilere eklendi", Toast.LENGTH_SHORT).show()
     }
 }
