@@ -1,7 +1,6 @@
-package com.example.dovmedeneme.Listener
+package com.example.tattooSelector2.Listener
 
-import com.example.dovmedeneme.Model.Tattoo
-import java.util.SimpleTimeZone
+import com.example.tattooSelector2.Model.Tattoo
 
 interface IFirebaseLoadDone {
 

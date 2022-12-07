@@ -1,4 +1,4 @@
-package com.example.dovmedeneme.Model
+package com.example.tattooSelector2.Model
 
 class Tattoo {
     var name:String? = null

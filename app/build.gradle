@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace 'com.example.dovmedeneme'
+    namespace 'com.example.tattooSelector2'
     compileSdk 32
     viewBinding {
         enabled = true
     }
     defaultConfig {
-        applicationId "com.example.dovmedeneme"
+        applicationId "com.example.tattooSelector2"
         minSdk 21
         targetSdk 32
         versionCode 1

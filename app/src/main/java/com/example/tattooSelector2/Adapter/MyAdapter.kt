@@ -1,4 +1,4 @@
-package com.example.dovmedeneme.Adapter
+package com.example.tattooSelector2.Adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.ViewPager
-import com.example.dovmedeneme.Model.Tattoo
-import com.example.dovmedeneme.R
+import com.example.tattooSelector2.Model.Tattoo
+import com.example.tattooSelector2.R
 import com.squareup.picasso.Picasso
 
 class MyAdapter(internal var context:Context,internal var data:List<Tattoo>):PagerAdapter() {

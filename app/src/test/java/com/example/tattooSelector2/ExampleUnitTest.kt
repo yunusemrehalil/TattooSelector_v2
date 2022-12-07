@@ -1,4 +1,4 @@
-package com.example.dovmedeneme
+package com.example.tattooSelector2
 
 import org.junit.Test
 
